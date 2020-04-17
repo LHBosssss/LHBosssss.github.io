@@ -1,27 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://cdn.plyr.io/3.5.10/plyr.js"></script>
-    <script type="text/javascript" src="webvtt-subtitler.js"></script>
-    <link rel="stylesheet" href="https://cdn.plyr.io/3.5.10/plyr.css" />
-
-    <title>Video Player</title></head>
+    <title>Video Player</title>
+</head>
 
 <body>
-    <video poster="https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-HD.jpg" class="js-player">
+    <video poster="https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-HD.jpg" width="800" height="600" controls>
         <source src="https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-576p.mp4" />
-    <track kind="captions" label="English captions" src="love.vtt" srclang="en" default />
-
+        <track kind="captions" label="English Captions" src="love.vtt" srclang="en" default />
     </video>
-
-    <script src="https://cdn.plyr.io/3.5.6/plyr.js"></script>
-    <script>
-        document.addEventListener('DOMContentLoaded', () => {
-            const player = Plyr.setup('.js-player');
-        });
-    </script>
 </body>
 
 </html>
