@@ -1,0 +1,70 @@
+.nav-scroller {
+  position: relative;
+  z-index: 2;
+  height: 2.75rem;
+  overflow-y: hidden;
+}
+
+.nav-scroller .nav {
+  display: flex;
+  flex-wrap: nowrap;
+  padding-bottom: 1rem;
+  overflow-x: auto;
+  text-align: center;
+  white-space: nowrap;
+  -webkit-overflow-scrolling: touch;
+}
+
+.nav-scroller .nav-link {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  font-size: 0.875rem;
+}
+
+.nav-scroller-item {
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.nav-scroller-item.active {
+  border-bottom: 1rem solid;
+  border-color: red;
+}
+
+.hotest-content {
+  height: 40vh;
+}
+
+@media (max-width: 768px) {
+  .hot-content-box {
+    height: 40vh;
+  }
+}
+.fa {
+  padding: 1.7rem;
+  font-size: 1.6rem;
+  width: 5rem;
+  height: 5rem;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
+background: #3B5998;
+color: white;
+}
+
+.fa-twitter {
+background: #55ACEE;
+color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
